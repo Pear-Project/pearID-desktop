@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# This is the app opener
+if [[ "$1" != "app://" ]]; then 
+    app=${1#app://}
+    nohup "$app" &>/dev/null &
+else 
+    nohup gnome-terminal &>/dev/null &
+fi
