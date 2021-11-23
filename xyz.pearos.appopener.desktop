@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=App Opener
+Exec=/usr/bin/opener %u
+Type=Application
+NoDisplay=true
+Categories=System;
+MimeType=x-scheme-handler/app;
